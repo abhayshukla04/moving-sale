@@ -42,12 +42,16 @@
       <p>If you want an item, send a message on WhatsApp or email me to schedule pickup in Montreal.</p>
       <div class="contact-cards">
         <div class="contact-card">
+          <h3>Message</h3>
+          <p><a href="https://wa.me/14386800036" target="_blank" rel="noreferrer">+1 (438) 680-0036</a></p>
+        </div>
+        <div class="contact-card">
           <h3>WhatsApp</h3>
-          <p><a href="https://wa.me/15141234567" target="_blank" rel="noreferrer">+1 (514) 123-4567</a></p>
+          <p><a href="https://wa.me/14386800036" target="_blank" rel="noreferrer">+1 (438) 680-0036</a></p>
         </div>
         <div class="contact-card">
           <h3>Email</h3>
-          <p><a href="mailto:montrealsale@example.com">montrealsale@example.com</a></p>
+          <p><a href="mailto:montrealsale@example.com">abhay.shukla04@gmail.com</a></p>
         </div>
       </div>
     </section>
@@ -56,6 +60,18 @@
   <footer class="site-footer">
     <p>Created for a Montreal moving sale. Replace item details and contact info with your own before publishing.</p>
   </footer>
+
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modal-image-container">
+        <button class="arrow left-arrow" id="prevImage">&lt;</button>
+        <img id="modalImage" src="" alt="" />
+        <button class="arrow right-arrow" id="nextImage">&gt;</button>
+      </div>
+      <div id="modalDetails"></div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
