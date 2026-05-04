@@ -21,11 +21,11 @@ const items = [
     images: ['img/moving-house-cardboard-boxes.jpg'],
   },
   {
-    name: 'IKEA bed iron court',
-    price: '$100',
-    description: 'IKEA bed frame with iron court.',
+    name: 'IKEA King Bed Frame',
+    price: '$150',
+    description: 'IKEA Sagstua King Bed Frame, Black.',
     condition: 'Good',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/ikea-metal-bed.webp','img/ikea-metal-bed-1.webp', 'img/ikea-metal-bed-2.webp'],
   },
   {
     name: 'Portable tea table (2)',
