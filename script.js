@@ -182,11 +182,11 @@ const items = [
     images: ['img/moving-house-cardboard-boxes.jpg'],
   },
   {
-    name: 'Air fryer with Oven',
-    price: '$150',
-    description: 'Air fryer with oven function. <a href="https://example.com" target="_blank">New product info</a>',
-    condition: 'Excellent',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    name: 'Air Fryer Toaster Oven',
+    price: '$25',
+    description: 'Air Fryer Toaster Oven. Click for <a href="https://www.walmart.ca/en/ip/Gourmia-Digital-Air-Fryer-Toaster-Oven-with-Single-Pull-French-Doors-GTF7465/6000205136714?classType=REGULAR&athbdg=L1102" target="_blank">New product info</a>',
+    condition: 'Good',
+    images: ['img/Air-Fryer-Toaster-Oven.avif'],
   },
   {
     name: 'Cashroll: Milton',
