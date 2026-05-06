@@ -130,7 +130,7 @@ const items = [
     price: '$20',
     description: 'Christmas tree with lights and decorations. <a href="https://www.canadiantire.ca/en/pdp/noma-pre-lit-dresden-christmas-tree-with-tree-stand-450-colour-changing-led-lights-7-ft-1518568p.html" target="_blank">New product info</a>',
     condition: 'Like new',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/tree-7ft-dresden-130-noma-0bdf330b-e866-45de-bdc7-5475cc744f78-jpgrendition.avif'],
   },
   {
     name: 'Sofa 3 seater',
