@@ -18,7 +18,7 @@ const items = [
     price: '$320',
     description: 'Durable DUROFLEX mattress. <a href="https://example.com" target="_blank">New product info</a>',
     condition: 'Excellent',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/duroflex-mattressjpg'],
   },
   {
     name: 'IKEA King Bed Frame',
