@@ -190,8 +190,8 @@ const items = [
   },
   {
     name: 'Cashroll: Milton',
-    price: '$10',
-    description: 'Milton cashroll. <a href="https://example.com" target="_blank">New product info</a>',
+    price: '$20',
+    description: 'Milton cashroll. <a href="https://www.amazon.ca/Milton-Galaxia-Insulated-Stainless-Serving/dp/B07BWS74MT/ref=sr_1_14?dib=eyJ2IjoiMSJ9.m7dyVrWFUhg4La3VXQEyXiT4nispMG48bsgD1DRqceFQ3-WgQ1ApL23X0nSyUQ3hZKQQs7XSOPKWcYnN-uy8ZYVwn2i1EtOC54JQh6ERmz7ZnmSzT2gzd4aF2E42WpEicNkcQ_FwPgi6Qp0hvm98klVnDMEvZQe21-qiFd717_eKZEiHGGwbG9-0hzH2FTTEUDvYVKoK3Lv_CJHsLsVPnGvWDEl6dWELcgtotG0pO3o.LiYWUzl2uoSr5BaP5p-eyp3pBrUdbJ7tfY9huNtIAMQ&dib_tag=se&qid=1778035939&refinements=p_89%3AMILTON&rnid=5264023011&s=kitchen&sr=1-14&srs=20657279011&th=1" target="_blank">New product info</a>',
     condition: 'Like New',
     images: ['img/milton.jpg'],
   },
