@@ -135,14 +135,14 @@ const items = [
   {
     name: 'Sofa 3 seater',
     price: '$50',
-    description: '3-seater sofa. <a href="https://example.com" target="_blank">New product info</a>',
+    description: '3-seater sofa.',
     condition: 'Very good',
     images: ['img/sofa-3-seater.jpg'],
   },
   {
     name: 'IKEA Shelf unit',
     price: '$10',
-    description: 'Steel rack from IKEA. <a href="https://example.com" target="_blank">New product info</a>',
+    description: 'Steel rack from IKEA. <a href="https://www.ikea.com/ca/en/p/hyllis-shelf-unit-indoor-outdoor-00278578/" target="_blank">New product info</a>',
     condition: 'Excellent',
     images: ['img/hyllis-shelf-unit-indoor-outdoor.avif'],
   },
