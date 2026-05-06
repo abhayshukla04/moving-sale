@@ -16,7 +16,7 @@ const items = [
   {
     name: 'Mattress: DUROFLEX',
     price: '$320',
-    description: 'Durable DUROFLEX mattress. <a href="https://example.com" target="_blank">New product info</a>',
+    description: 'DUROFLEX Orthopaedic mattress. <a href="https://example.com" target="_blank">New product info</a>',
     condition: 'Excellent',
     images: ['img/duroflex-mattressjpg'],
   },
@@ -154,11 +154,11 @@ const items = [
     images: ['img/moving-house-cardboard-boxes.jpg'],
   },
   {
-    name: 'IKEA TABLE (count 2)',
+    name: 'IKEA Table and 4 chairs, antique stain pine',
     price: '$50',
-    description: 'Two IKEA tables. <a href="https://example.com" target="_blank">New product info</a>',
+    description: 'Table and 4 chairs, antique stain pine. <a href="https://www.ikea.com/ca/en/p/haegernaes-table-and-4-chairs-antique-stain-pine-70575947/ target="_blank">New product info</a>',
     condition: 'Very good',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/haegernaes-table-and-4-chairs-antique-stain-pine__1350925_pe951817_s5.avif'],
   },
   {
     name: 'Office table (1)',
@@ -232,10 +232,10 @@ const items = [
   },
   {
     name: 'Dining chair (4)',
-    price: '$20',
+    price: '$40',
     description: 'Four dining chairs. <a href="https://example.com" target="_blank">New product info</a>',
     condition: 'Good',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/haegernaes-chair-antique.avif'],
   },
   {
     name: 'Robot vacuum cleaner',
