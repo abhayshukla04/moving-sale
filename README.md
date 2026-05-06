@@ -2,6 +2,8 @@
 
 A simple static website to list household items for sale with price and photos. This site is ready to publish on GitHub Pages as a static site.
 
+https://abhayshukla04.github.io/moving-sale/
+
 ## Files
 
 - `index.html` — homepage with item listings
