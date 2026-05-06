@@ -93,9 +93,9 @@ const items = [
   {
     name: 'Samsung TV 55 inch',
     price: '$200',
-    description: '55-inch Samsung TV. <a href="https://example.com" target="_blank">New product info</a>',
+    description: '55-inch Samsung TV. <a href="https://www.bestbuy.ca/en-ca/product/samsung-55-q8f-series-4k-uhd-hdr-qled-tizen-smart-tv-qn55q8faafxzc-2025/19206116" target="_blank">New product info</a>',
     condition: 'Like new',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/samsung-55-inch.jpg'],
   },
   {
     name: 'Duroflex-Single Seater Recliner Sofa',
