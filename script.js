@@ -161,11 +161,11 @@ const items = [
     images: ['img/haegernaes-table-and-4-chairs-antique-stain-pine__1350925_pe951817_s5.avif'],
   },
   {
-    name: 'Office table (1)',
+    name: 'Featherlite Slick Executive Table',
     price: '$50',
-    description: 'Office table. <a href="https://example.com" target="_blank">New product info</a>',
+    description: 'Featherlite Slick Executive Table. <a href="https://featherlitestore.com/product/featherlite-slick-executive-table/" target="_blank">New product info</a>',
     condition: 'Excellent',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/featherlight-table.jpg'],
   },
   {
     name: 'Blanket: king size (2)',
