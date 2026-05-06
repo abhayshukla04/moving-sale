@@ -128,7 +128,7 @@ const items = [
   {
     name: 'Christmas tree',
     price: '$20',
-    description: 'Christmas tree decoration. <a href="https://example.com" target="_blank">New product info</a>',
+    description: 'Christmas tree with lights and decorations. <a href="https://www.canadiantire.ca/en/pdp/noma-pre-lit-dresden-christmas-tree-with-tree-stand-450-colour-changing-led-lights-7-ft-1518568p.html" target="_blank">New product info</a>',
     condition: 'Like new',
     images: ['img/moving-house-cardboard-boxes.jpg'],
   },
