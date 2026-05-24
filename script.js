@@ -69,7 +69,7 @@ const items = [
     originalPrice: '$100',
     description: 'Blue Wodden Study Table. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Excellent',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/blue-study-table.jpg'],
   },
   {
     name: 'Pink wooden study table: Imported',
@@ -77,7 +77,7 @@ const items = [
     originalPrice: '$100',
     description: 'Pink wooden study table suitable. Click for <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Excellent',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/pink-study-table.jpeg'],
   },
   {
     name: 'IKEA Blue study chair',
