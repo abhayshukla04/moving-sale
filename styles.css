@@ -176,6 +176,18 @@ main {
   gap: 1rem;
 }
 
+.item-price-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.item-old-price {
+  color: #6b7280;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
 .item-price {
   font-weight: 700;
   color: #111827;
@@ -330,6 +342,18 @@ main {
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
+}
+
+.modal-prices {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.modal-old-price {
+  color: #6b7280;
+  text-decoration: line-through;
+  font-weight: 500;
 }
 
 .modal-price {
