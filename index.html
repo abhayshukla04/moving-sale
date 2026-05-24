@@ -25,9 +25,29 @@
     <section class="search-section" id="items">
       <div class="section-header">
         <h2>Featured items</h2>
-        <input id="searchInput" type="search" placeholder="Search by item name" aria-label="Search items" />
+        <div class="section-controls">
+          <input id="searchInput" type="search" placeholder="Search by item name" aria-label="Search items" />
+          <button id="printButton" type="button" class="button button-secondary">Print table</button>
+        </div>
       </div>
+      <div id="categoryFilters" class="category-filters" aria-label="Category filters"></div>
       <div id="itemsGrid" class="items-grid"></div>
+      <section class="print-table-section" aria-hidden="true">
+        <h2>Printable item list</h2>
+        <table id="printTable" class="print-table">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Description</th>
+              <th>Price</th>
+              <th>Original</th>
+              <th>Category</th>
+              <th>Condition</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
     </section>
 
     <section class="about-section">

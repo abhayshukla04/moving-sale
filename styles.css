@@ -82,7 +82,8 @@ a {
 
 .button-secondary {
   background: rgba(255, 255, 255, 0.18);
-  color: white;
+  color: inherit;
+  border: 1px solid rgba(15, 23, 42, 0.08);
 }
 
 main {
@@ -111,6 +112,130 @@ main {
 .section-header h2 {
   margin: 0;
   font-size: 1.75rem;
+}
+
+.section-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.category-filter-button {
+  border: 1px solid var(--border);
+  background: #f8fafc;
+  color: var(--text);
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.category-filter-button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+
+.category-filter-button:hover {
+  background: rgba(37, 99, 235, 0.1);
+}
+
+.item-category {
+  display: inline-flex;
+  align-items: center;
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  margin-bottom: 0.75rem;
+}
+
+.modal-category {
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.print-table-section {
+  display: none;
+}
+
+.print-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.print-table th,
+.print-table td {
+  border: 1px solid #d1d5db;
+  padding: 0.75rem 0.85rem;
+  text-align: left;
+}
+
+.print-table th {
+  background: #f8fafc;
+  color: #111827;
+}
+
+.print-table td:nth-child(2) {
+  max-width: 340px;
+  white-space: normal;
+}
+
+@media print {
+  html, body {
+    background: white;
+    color: black;
+  }
+
+  body {
+    margin: 0;
+    min-height: auto;
+  }
+
+  .page-header,
+  .header-actions,
+  .search-section input,
+  .section-controls button,
+  .items-grid,
+  .about-section,
+  .contact-section,
+  .site-footer,
+  .modal {
+    display: none !important;
+  }
+
+  .print-table-section {
+    display: block !important;
+    background: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .print-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .print-table th,
+  .print-table td {
+    border: 1px solid #000;
+    color: #000;
+  }
 }
 
 #searchInput {

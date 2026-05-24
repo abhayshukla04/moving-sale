@@ -1,7 +1,8 @@
 const items = [
   {
     name: 'Air conditioner',
-    price: '$50',
+    price: '$50' ,
+    category: 'Electronics',
     originalPrice: '$200',
     description: 'Efficient air conditioner in good working condition. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -9,7 +10,8 @@ const items = [
   },
   {
     name: 'IKEA hybrid mattress',
-    price: '$200',
+    price: '$200' ,
+    category: 'Bedding',
     originalPrice: '$800',
     description: 'HAUGSVÄR IKEA hybrid mattress. Click for <a href="https://www.ikea.com/ca/en/p/anneland-hybrid-mattress-firm-white-20511910/" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -17,7 +19,8 @@ const items = [
   },
     {
     name: 'IKEA Glass-door cabinet, metal/white',
-    price: '$20',
+    price: '$20' ,
+    category: 'Furniture',
     originalPrice: '$50',
     description: 'Glass-door cabinet, metal/white. Click for <a href="https://www.ikea.com/ca/en/p/baggebo-glass-door-cabinet-metal-white-80502998/" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -25,7 +28,8 @@ const items = [
   },
   {
     name: 'IKEA Drawer unit, white',
-    price: '$10',
+    price: '$10' ,
+    category: 'Furniture',
     originalPrice: '$25',
     description: 'IKEA Drawer unit, white. Click for <a href="https://www.ikea.com/ca/en/p/lennart-drawer-unit-white-30326177/" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -33,7 +37,8 @@ const items = [
   },
   {
     name: 'DUROFLEX Mattress : Imported',
-    price: '$200',
+    price: '$200' ,
+    category: 'Bedding',
     originalPrice: '$600',
     description: 'DUROFLEX Orthopaedic mattress. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -41,7 +46,8 @@ const items = [
   },
   {
     name: 'IKEA King Bed Frame',
-    price: '$150',
+    price: '$150' ,
+    category: 'Furniture',
     originalPrice: '$379',
     description: 'IKEA Sagstua King Bed Frame, Black. Click for <a href="https://www.ikea.com/ca/en/p/stjaernoe-bed-frame-anthracite-50570192/#content" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -49,7 +55,8 @@ const items = [
   },
     {
     name: 'IKEA Ironing board',
-    price: '$10',
+    price: '$10' ,
+    category: 'Home',
     originalPrice: '$50',
     description: 'IKEA Ironing board. Click for <a href="https://www.ikea.com/ca/en/p/daenka-ironing-board-20471612/" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -57,7 +64,8 @@ const items = [
   },
   {
     name: 'Portable tea table (2)',
-    price: '$10',
+    price: '$10' ,
+    category: 'Furniture',
     originalPrice: '$40',
     description: 'Two portable tea tables. <a href="https://www.homedepot.ca/product/stylewell-stylewell-1-4-ft-x-1-4-ft-resin-frame-square-outdoor-side-table-in-red/1000861861" target="_blank">Link of New</a>',
     condition: 'Like new',
@@ -65,7 +73,8 @@ const items = [
   },
   {
     name: 'Blue Wodden Study Table : Imported',
-    price: '$25',
+    price: '$25' ,
+    category: 'Furniture',
     originalPrice: '$100',
     description: 'Blue Wodden Study Table. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -73,7 +82,8 @@ const items = [
   },
   {
     name: 'Pink wooden study table: Imported',
-    price: '$25',
+    price: '$25' ,
+    category: 'Furniture',
     originalPrice: '$100',
     description: 'Pink wooden study table suitable. Click for <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -81,7 +91,8 @@ const items = [
   },
   {
     name: 'IKEA Blue study chair',
-    price: '$10',
+    price: '$10' ,
+    category: 'Furniture',
     originalPrice: '$40',
     description: 'Blue study chair. Click for <a href="https://www.ikea.com/ca/en/p/mammut-childrens-chair-indoor-outdoor-light-blue-30581988/#content" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -89,7 +100,8 @@ const items = [
   },
   {
     name: 'IKEA Pink study chair',
-    price: '$10',
+    price: '$10' ,
+    category: 'Furniture',
     originalPrice: '$40',
     description: 'Pink study chair. Click for <a href="https://www.ikea.com/ca/en/p/mammut-childrens-chair-indoor-outdoor-light-blue-30581988/#content" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -97,11 +109,12 @@ const items = [
   },
   {
     name: 'Wardrobe : Imported',
-    price: '$25',
+    price: '$25' ,
+    category: 'Furniture',
     originalPrice: '$100',
     description: 'Spacious wardrobe. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'ExcellentVery good',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/ward-robe-1a.jpg', 'img/ward-robe-1b.jpg'],
   },
   {
     name: 'Wardrobe : Imported',
@@ -109,11 +122,12 @@ const items = [
     originalPrice: '$100',
     description: 'Another spacious wardrobe. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Excellent',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/ward-robe-2a.jpg', 'img/ward-robe-2b.jpg'],
   },
   {
     name: 'Bike: age 9-10',
-    price: '$50',
+    price: '$50' ,
+    category: 'Toys',
     originalPrice: '$200',
     description: 'Bike suitable for ages 9-10. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -121,7 +135,8 @@ const items = [
   },
   {
     name: 'Bike: age 4-5',
-    price: '$50',
+    price: '$50' ,
+    category: 'Toys',
     originalPrice: '$200',
     description: 'Bike suitable for ages 4-5. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -129,7 +144,8 @@ const items = [
   },
   {
     name: 'Samsung TV 55 inch',
-    price: '$200',
+    price: '$200' ,
+    category: 'Electronics',
     originalPrice: '$800',
     description: '55-inch Samsung TV. <a href="https://www.bestbuy.ca/en-ca/product/samsung-55-q8f-series-4k-uhd-hdr-qled-tizen-smart-tv-qn55q8faafxzc-2025/19206116" target="_blank">Link of New</a>',
     condition: 'Like new',
@@ -137,7 +153,8 @@ const items = [
   },
   {
     name: 'Duroflex-Single Seater Recliner Sofa : Imported',
-    price: '$100',
+    price: '$100' ,
+    category: 'Furniture',
     originalPrice: '$300',
     description: 'Duroflex Avalon - Single Seater Premium Fabric Recliner Sofa. Click for <a href="https://www.amazon.in/dp/B09CH31YJ3?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -145,7 +162,8 @@ const items = [
   },
   {
     name: 'Floor uplighter',
-    price: '$7',
+    price: '$7' ,
+    category: 'Lighting',
     originalPrice: '$20',
     description: 'IKEA Floor uplighter, black/white. Click for<a href="https://www.ikea.com/ca/en/p/tagarp-floor-uplighter-black-white-60464049/" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -153,15 +171,17 @@ const items = [
   },
   {
     name: 'IRON Stand',
-    price: '$20',
+    price: '$20' ,
+    category: 'Home',
     originalPrice: '$50',
     description: 'Stand for iron. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Excellent',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/daenka-ironing-board.avif'],
   },
   {
     name: 'IRON',
-    price: '$50',
+    price: '$50' ,
+    category: 'Electronics',
     originalPrice: '$100',
     description: 'Iron for clothes. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -169,7 +189,8 @@ const items = [
   },
   {
     name: 'Christmas tree',
-    price: '$20',
+    price: '$20' ,
+    category: 'Decor',
     originalPrice: '$50',
     description: 'Christmas tree with lights and decorations. <a href="https://www.canadiantire.ca/en/pdp/noma-pre-lit-dresden-christmas-tree-with-tree-stand-450-colour-changing-led-lights-7-ft-1518568p.html" target="_blank">Link of New</a>',
     condition: 'Like new',
@@ -177,7 +198,8 @@ const items = [
   },
   {
     name: 'Sofa 3 seater',
-    price: '$50',
+    price: '$50' ,
+    category: 'Furniture',
     originalPrice: '$100',
     description: '3-seater sofa.',
     condition: 'Very good',
@@ -185,7 +207,8 @@ const items = [
   },
     {
     name: 'Premium air purifier',
-    price: '$100',
+    price: '$100' ,
+    category: 'Electronics',
     originalPrice: '$399',
     description: 'Ionic Pro Platinum Air Purifier. Click for <a href="https://a.co/d/0i9Yhztg" target="_blank">Link of New</a>',
     condition: 'Very good',
@@ -193,7 +216,8 @@ const items = [
   },
   {
     name: 'IKEA Shelf unit',
-    price: '$10',
+    price: '$10' ,
+    category: 'Furniture',
     originalPrice: '$20',
     description: 'Steel rack from IKEA. <a href="https://www.ikea.com/ca/en/p/hyllis-shelf-unit-indoor-outdoor-00278578/" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -201,7 +225,8 @@ const items = [
   },
   {
     name: 'TV rack with storage',
-    price: '$100',
+    price: '$100' ,
+    category: 'Furniture',
     originalPrice: '$200',
     description: 'TV rack with storage space. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -209,7 +234,8 @@ const items = [
   },
   {
     name: 'IKEA Table and 4 chairs, antique stain pine',
-    price: '$50',
+    price: '$50' ,
+    category: 'Furniture',
     originalPrice: '$100',
     description: 'Table and 4 chairs, antique stain pine. <a href="https://www.ikea.com/ca/en/p/haegernaes-table-and-4-chairs-antique-stain-pine-70575947/ target="_blank">Link of New</a>',
     condition: 'Very good',
@@ -217,7 +243,8 @@ const items = [
   },
   {
     name: 'Featherlite Slick Executive Table',
-    price: '$50',
+    price: '$50' ,
+    category: 'Furniture',
     originalPrice: '$100',
     description: 'Featherlite Slick Executive Table. <a href="https://featherlitestore.com/product/featherlite-slick-executive-table/" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -225,7 +252,8 @@ const items = [
   },
   {
     name: 'Blanket: king size (2)',
-    price: '$40',
+    price: '$40' ,
+    category: 'Bedding',
     originalPrice: '$100',
     description: 'Two king-size blankets. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Like new',
@@ -233,7 +261,8 @@ const items = [
   },
   {
     name: 'Mixer Preethi with juicer',
-    price: '$80',
+    price: '$80' ,
+    category: 'Kitchen',
     originalPrice: '$300',
     description: 'Preethi mixer with juicer. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -241,7 +270,8 @@ const items = [
   },
   {
     name: 'Air Fryer Toaster Oven',
-    price: '$25',
+    price: '$25' ,
+    category: 'Kitchen',
     originalPrice: '$100',
     description: 'Air Fryer Toaster Oven. Click for <a href="https://www.walmart.ca/en/ip/Gourmia-Digital-Air-Fryer-Toaster-Oven-with-Single-Pull-French-Doors-GTF7465/6000205136714?classType=REGULAR&athbdg=L1102" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -249,7 +279,8 @@ const items = [
   },
   {
     name: 'Cashroll: Milton',
-    price: '$20',
+    price: '$20' ,
+    category: 'Kitchen',
     originalPrice: '$50',
     description: 'Milton cashroll. <a href="https://www.amazon.ca/Milton-Galaxia-Insulated-Stainless-Serving/dp/B07BWS74MT/ref=sr_1_14?dib=eyJ2IjoiMSJ9.m7dyVrWFUhg4La3VXQEyXiT4nispMG48bsgD1DRqceFQ3-WgQ1ApL23X0nSyUQ3hZKQQs7XSOPKWcYnN-uy8ZYVwn2i1EtOC54JQh6ERmz7ZnmSzT2gzd4aF2E42WpEicNkcQ_FwPgi6Qp0hvm98klVnDMEvZQe21-qiFd717_eKZEiHGGwbG9-0hzH2FTTEUDvYVKoK3Lv_CJHsLsVPnGvWDEl6dWELcgtotG0pO3o.LiYWUzl2uoSr5BaP5p-eyp3pBrUdbJ7tfY9huNtIAMQ&dib_tag=se&qid=1778035939&refinements=p_89%3AMILTON&rnid=5264023011&s=kitchen&sr=1-14&srs=20657279011&th=1" target="_blank">Link of New</a>',
     condition: 'Like New',
@@ -257,7 +288,8 @@ const items = [
   },
   {
     name: 'Superhero toys',
-    price: '$20',
+    price: '$20' ,
+    category: 'Toys',
     originalPrice: '$100',
     description: 'Collection of superhero toys. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -265,7 +297,8 @@ const items = [
   },
   {
     name: 'Soft toys for kids',
-    price: '$15',
+    price: '$15' ,
+    category: 'Toys',
     originalPrice: '$100',
     description: 'Soft toys for children. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Like new',
@@ -273,7 +306,8 @@ const items = [
   },
   {
     name: 'Steel Plate',
-    price: '$5',
+    price: '$5' ,
+    category: 'Kitchen',
     originalPrice: '$20',
     description: 'Steel plate. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'New',
@@ -281,7 +315,8 @@ const items = [
   },
   {
     name: 'Steel Glass',
-    price: '$3',
+    price: '$3' ,
+    category: 'Kitchen',
     originalPrice: '$10',
     description: 'Steel glass. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'New',
@@ -289,7 +324,8 @@ const items = [
   },
   {
     name: 'King size bed protector',
-    price: '$10',
+    price: '$10' ,
+    category: 'Bedding',
     originalPrice: '$50',
     description: 'King-size bed protector. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Like new',
@@ -297,7 +333,8 @@ const items = [
   },
   {
     name: 'Dining chair (4)',
-    price: '$40',
+    price: '$40' ,
+    category: 'Furniture',
     originalPrice: '$100',
     description: 'Four dining chairs. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -305,7 +342,8 @@ const items = [
   },
   {
     name: 'Robot vacuum cleaner',
-    price: '$40',
+    price: '$40' ,
+    category: 'Electronics',
     originalPrice: '$200',
     description: 'Robot vacuum cleaner. <a href="https://www.amazon.ca/dp/B0CYGHJHN5?ref=ppx_yo2ov_dt_b_fed_asin_title" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -313,7 +351,8 @@ const items = [
   },
   {
     name: 'Humidifier',
-    price: '$25',
+    price: '$25' ,
+    category: 'Electronics',
     originalPrice: '$100',
     description: 'Humidifier for home. <a href="https://www.amazon.ca/dp/B0BB3TPQ91?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -321,7 +360,8 @@ const items = [
   },
   {
     name: 'Water filter',
-    price: '$25',
+    price: '$25' ,
+    category: 'Home',
     originalPrice: '$100',
     description: 'Water filter system. <a href="https://www.amazon.ca/dp/B07G3LV535?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1" target="_blank">Link of New</a>',
     condition: 'Very good',
@@ -329,7 +369,8 @@ const items = [
   },
   {
     name: 'Steamer',
-    price: '$25',
+    price: '$25' ,
+    category: 'Electronics',
     originalPrice: '$100',
     description: 'Clothes steamer. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Like new',
@@ -337,7 +378,8 @@ const items = [
   },
   {
     name: 'Bedsheet king size',
-    price: '$10',
+    price: '$10' ,
+    category: 'Bedding',
     originalPrice: '$50',
     description: 'King-size bedsheet. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'New',
@@ -345,7 +387,8 @@ const items = [
   },
   {
     name: 'Kitchen Utensils made out of steel',
-    price: '$30',
+    price: '$30' ,
+    category: 'Kitchen',
     originalPrice: '$100',
     description: 'Set of steel kitchen utensils. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Good',
@@ -353,7 +396,8 @@ const items = [
   },
   {
     name: 'Weight machine',
-    price: '$10',
+    price: '$10' ,
+    category: 'Home',
     originalPrice: '$50',
     description: 'Weight machine for exercise. <a href="https://example.com" target="_blank">Link of New</a>',
     condition: 'Excellent',
@@ -364,6 +408,9 @@ const items = [
 document.addEventListener('DOMContentLoaded', () => {
   const itemsGrid = document.getElementById('itemsGrid');
   const searchInput = document.getElementById('searchInput');
+  const printButton = document.getElementById('printButton');
+  const categoryFilters = document.getElementById('categoryFilters');
+  const printTableBody = document.querySelector('#printTable tbody');
   const modal = document.getElementById('itemModal');
   const modalImage = document.getElementById('modalImage');
   const modalDetails = document.getElementById('modalDetails');
@@ -373,6 +420,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let currentItem = null;
   let currentImageIndex = 0;
+  let selectedCategory = 'All';
 
   function openModal(item) {
     currentItem = item;
@@ -387,6 +435,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <span class="modal-price">${item.price}</span>
         </div>
         <span class="modal-condition">${item.condition}</span>
+        <span class="modal-category">${item.category}</span>
       </div>
     `;
     modal.style.display = 'block';
@@ -446,6 +495,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <div class="item-card-content">
           <h3 class="item-card-title">${item.name}</h3>
+          <span class="item-category">${item.category}</span>
           <p class="item-card-description">${item.description}</p>
           <div class="item-card-footer">
             <div class="item-price-row">
@@ -466,17 +516,63 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  function renderPrintTable(filteredItems) {
+    printTableBody.innerHTML = filteredItems.map(item => `
+      <tr>
+        <td>${item.name}</td>
+        <td>${item.description}</td>
+        <td>${item.price}</td>
+        <td>${item.originalPrice || ''}</td>
+        <td>${item.category}</td>
+        <td>${item.condition}</td>
+      </tr>
+    `).join('');
+  }
+
+  function getCategories(items) {
+    return ['All', ...Array.from(new Set(items.map(item => item.category || 'Other')))].filter(Boolean);
+  }
+
+  function renderCategoryFilters() {
+    const categories = getCategories(items);
+    categoryFilters.innerHTML = categories.map(category => `
+      <button type="button" class="category-filter-button${category === selectedCategory ? ' active' : ''}" data-category="${category}">${category}</button>
+    `).join('');
+
+    categoryFilters.querySelectorAll('.category-filter-button').forEach(button => {
+      button.addEventListener('click', () => {
+        selectedCategory = button.dataset.category;
+        renderCategoryFilters();
+        const filtered = filterItems(searchInput.value);
+        renderItems(filtered);
+        renderPrintTable(filtered);
+      });
+    });
+  }
+
   function filterItems(query) {
     const normalized = query.trim().toLowerCase();
-    if (!normalized) {
-      return items;
-    }
-    return items.filter(item => item.name.toLowerCase().includes(normalized) || item.description.toLowerCase().includes(normalized));
+    return items.filter(item => {
+      const matchesCategory = selectedCategory === 'All' || item.category === selectedCategory;
+      const matchesQuery = !normalized ||
+        item.name.toLowerCase().includes(normalized) ||
+        item.description.toLowerCase().includes(normalized) ||
+        item.category.toLowerCase().includes(normalized);
+      return matchesCategory && matchesQuery;
+    });
   }
 
   searchInput.addEventListener('input', () => {
-    renderItems(filterItems(searchInput.value));
+    const filtered = filterItems(searchInput.value);
+    renderItems(filtered);
+    renderPrintTable(filtered);
   });
 
+  printButton.addEventListener('click', () => {
+    window.print();
+  });
+
+  renderCategoryFilters();
   renderItems(items);
+  renderPrintTable(items);
 });
