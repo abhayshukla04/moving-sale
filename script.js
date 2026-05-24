@@ -17,15 +17,6 @@ const items = [
     condition: 'Excellent',
     images: ['img/hybrid-mattress.avif'],
   },
-    {
-    name: 'IKEA Glass-door cabinet, metal/white',
-    price: '$20' ,
-    category: 'Furniture',
-    originalPrice: '$50',
-    description: 'Glass-door cabinet, metal/white. Click for <a href="https://www.ikea.com/ca/en/p/baggebo-glass-door-cabinet-metal-white-80502998/" target="_blank">Link of New</a>',
-    condition: 'Excellent',
-    images: ['img/baggebo-glass-door-cabinet-metal-white.avif'],
-  },
   {
     name: 'IKEA Drawer unit, white',
     price: '$10' ,
