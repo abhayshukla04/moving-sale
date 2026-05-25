@@ -79,6 +79,7 @@ const items = [
     originalPrice: '$100',
     description: 'Blue Wodden Study Table. Click here <a href="https://example.com" target="_blank">for more information</a>',
     condition: 'Excellent',
+    soldOut: true,
     images: ['img/blue-study-table.jpg'],
   },
   {
@@ -97,6 +98,7 @@ const items = [
     originalPrice: '$40',
     description: 'Blue study chair. Click here <a href="https://www.ikea.com/ca/en/p/mammut-childrens-chair-indoor-outdoor-light-blue-30581988/#content" target="_blank">for more information</a>',
     condition: 'Excellent',
+    soldOut: true,
     images: ['img/Blue-Chair.avif'],
   },
   {
@@ -199,7 +201,7 @@ const items = [
   },
   {
     name: 'IKEA Shelf unit',
-    price: '$10' ,
+    price: '$15' ,
     category: 'Furniture',
     originalPrice: '$20',
     description: 'Steel rack from IKEA. Click here <a href="https://www.ikea.com/ca/en/p/hyllis-shelf-unit-indoor-outdoor-00278578/" target="_blank">for more information</a>',
@@ -258,6 +260,7 @@ const items = [
     originalPrice: '$180',
     description: 'Air Fryer Toaster Oven. Click here <a href="https://www.walmart.ca/en/ip/Gourmia-Digital-Air-Fryer-Toaster-Oven-with-Single-Pull-French-Doors-GTF7465/6000205136714?classType=REGULAR&athbdg=L1102" target="_blank">for more information</a>',
     condition: 'Good',
+    soldOut: true,
     images: ['img/Air-Fryer-Toaster-Oven.avif'],
   },
   {
@@ -330,6 +333,7 @@ const items = [
     originalPrice: '$200',
     description: 'Robot vacuum cleaner. Click here <a href="https://www.amazon.ca/dp/B0CYGHJHN5?ref=ppx_yo2ov_dt_b_fed_asin_title" target="_blank">for more information</a>',
     condition: 'Excellent',
+    soldOut: true,
     images: ['img/Robot-vacuum.jpg'],
   },
   {
