@@ -45,6 +45,16 @@ const items = [
     images: ['img/ikea-metal-bed.webp','img/ikea-metal-bed-1.webp', 'img/ikea-metal-bed-2.webp'],
   },
     {
+    name: 'Hyper Bicycles',
+    price: '$100' ,
+    category: 'Furniture',
+    originalPrice: '$228',
+    description: 'Hyper Bicycles Men 27.5 inch, Shocker Mountain Bike, Black. Click here <a href="https://www.walmart.ca/en/ip/Hyper-Bicycles-Men-s-27-5-Shocker-Mountain-Bike-Black/6000207391349?classType=REGULAR&athbdg=L1102&from=/search" target="_blank">for more information</a>',
+    condition: 'Good',
+    soldOut: true,
+    images: ['img/6ec96ed9-2f34-42f8-8f67-c9fa5f06a680.436c96818b3e700ab0fadcbe3e95f2e6.avif'],
+  },
+    {
     name: 'IKEA Ironing board',
     price: '$20' ,
     category: 'Home',
@@ -162,9 +172,9 @@ const items = [
   },
   {
     name: 'Christmas tree',
-    price: '$20' ,
+    price: '$25' ,
     category: 'Decor',
-    originalPrice: '$50',
+    originalPrice: '$150',
     description: 'Christmas tree with lights and decorations. Click here <a href="https://www.canadiantire.ca/en/pdp/noma-pre-lit-dresden-christmas-tree-with-tree-stand-450-colour-changing-led-lights-7-ft-1518568p.html" target="_blank">for more information</a>',
     condition: 'Like new',
     images: ['img/tree-7ft-dresden-130-noma-0bdf330b-e866-45de-bdc7-5475cc744f78-jpgrendition.avif'],
@@ -203,7 +213,7 @@ const items = [
     originalPrice: '$200',
     description: 'TV rack with storage space. Click here <a href="https://example.com" target="_blank">for more information</a>',
     condition: 'Excellent',
-    images: ['img/moving-house-cardboard-boxes.jpg'],
+    images: ['img/20260524_125739.jpg', 'img/20260524_125756.jpg'],
   },
   {
     name: 'IKEA Table and 4 chairs, antique stain pine',
@@ -245,7 +255,7 @@ const items = [
     name: 'Air Fryer Toaster Oven',
     price: '$25' ,
     category: 'Kitchen',
-    originalPrice: '$100',
+    originalPrice: '$180',
     description: 'Air Fryer Toaster Oven. Click here <a href="https://www.walmart.ca/en/ip/Gourmia-Digital-Air-Fryer-Toaster-Oven-with-Single-Pull-French-Doors-GTF7465/6000205136714?classType=REGULAR&athbdg=L1102" target="_blank">for more information</a>',
     condition: 'Good',
     images: ['img/Air-Fryer-Toaster-Oven.avif'],
@@ -401,6 +411,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateModalImage();
     modalDetails.innerHTML = `
       <h2>${item.name}</h2>
+      ${item.soldOut ? '<div class="sold-out-banner">Sold Out</div>' : ''}
       <p>${item.description}</p>
       <div class="modal-footer">
         <div class="modal-prices">
@@ -462,9 +473,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderItems(filteredItems) {
     itemsGrid.innerHTML = filteredItems.map((item, index) => `
-      <article class="item-card" data-index="${index}">
+      <article class="item-card${item.soldOut ? ' sold-out' : ''}" data-index="${index}">
         <div class="item-images">
           ${item.images.length > 0 ? `<img src="${item.images[0]}" alt="${item.name}" loading="lazy" />` : ''}
+          ${item.soldOut ? '<div class="sold-out-overlay">Sold Out</div>' : ''}
         </div>
         <div class="item-card-content">
           <h3 class="item-card-title">${item.name}</h3>
@@ -491,8 +503,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderPrintTable(filteredItems) {
     printTableBody.innerHTML = filteredItems.map(item => `
-      <tr>
-        <td>${item.name}</td>
+      <tr${item.soldOut ? ' class="sold-out-row"' : ''}>
+        <td>${item.name}${item.soldOut ? ' [SOLD OUT]' : ''}</td>
         <td>${item.description}</td>
         <td>${item.price}</td>
         <td>${item.originalPrice || ''}</td>
