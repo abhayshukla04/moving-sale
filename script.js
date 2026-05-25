@@ -19,7 +19,7 @@ const items = [
   },
   {
     name: 'IKEA Drawer unit, white',
-    price: '$10' ,
+    price: '$15' ,
     category: 'Furniture',
     originalPrice: '$25',
     description: 'IKEA Drawer unit, white. Click here <a href="https://www.ikea.com/ca/en/p/lennart-drawer-unit-white-30326177/" target="_blank">for more information</a>',
@@ -56,7 +56,7 @@ const items = [
   },
     {
     name: 'IKEA Ironing board',
-    price: '$20' ,
+    price: '$25' ,
     category: 'Home',
     originalPrice: '$50',
     description: 'IKEA Ironing board. Click here <a href="https://www.ikea.com/ca/en/p/daenka-ironing-board-20471612/" target="_blank">for more information</a>',
@@ -93,7 +93,7 @@ const items = [
   },
   {
     name: 'IKEA Blue study chair',
-    price: '$10' ,
+    price: '$15' ,
     category: 'Furniture',
     originalPrice: '$40',
     description: 'Blue study chair. Click here <a href="https://www.ikea.com/ca/en/p/mammut-childrens-chair-indoor-outdoor-light-blue-30581988/#content" target="_blank">for more information</a>',
@@ -103,7 +103,7 @@ const items = [
   },
   {
     name: 'IKEA Pink study chair',
-    price: '$10' ,
+    price: '$15' ,
     category: 'Furniture',
     originalPrice: '$40',
     description: 'Pink study chair. Click here <a href="https://www.ikea.com/ca/en/p/mammut-childrens-chair-indoor-outdoor-light-blue-30581988/#content" target="_blank">for more information</a>',
@@ -121,7 +121,7 @@ const items = [
   },
   {
     name: 'Wardrobe : Imported',
-    price: '$20',
+    price: '$25',
     originalPrice: '$100',
     description: 'Another spacious wardrobe. Made with greenply plywood and laminate. Click here <a href="https://example.com" target="_blank">for more information</a>',
     condition: 'Excellent',
@@ -201,18 +201,18 @@ const items = [
   },
   {
     name: 'IKEA Shelf unit',
-    price: '$15' ,
+    price: '$20' ,
     category: 'Furniture',
-    originalPrice: '$20',
+    originalPrice: '$40',
     description: 'Steel rack from IKEA. Click here <a href="https://www.ikea.com/ca/en/p/hyllis-shelf-unit-indoor-outdoor-00278578/" target="_blank">for more information</a>',
     condition: 'Excellent',
     images: ['img/hyllis-shelf-unit-indoor-outdoor.avif'],
   },
   {
     name: 'TV rack with storage',
-    price: '$100' ,
+    price: '$50' ,
     category: 'Furniture',
-    originalPrice: '$200',
+    originalPrice: '$300',
     description: 'TV rack with storage space. Made with greenply plywood and laminate. Click here <a href="https://example.com" target="_blank">for more information</a>',
     condition: 'Excellent',
     images: ['img/20260524_125739.jpg', 'img/20260524_125756.jpg'],
