@@ -18,15 +18,6 @@ const items = [
     images: ['img/hybrid-mattress.avif'],
   },
   {
-    name: 'IKEA Drawer unit, white',
-    price: '$15' ,
-    category: 'Furniture',
-    originalPrice: '$25',
-    description: 'IKEA Drawer unit, white. Click here <a href="https://www.ikea.com/ca/en/p/lennart-drawer-unit-white-30326177/" target="_blank">for more information</a>',
-    condition: 'Good',
-    images: ['img/lennart-drawer-unit-white.avif'],
-  },
-  {
     name: 'DUROFLEX Mattress : Imported',
     price: '$200' ,
     category: 'Bedding',
@@ -152,6 +143,7 @@ const items = [
     originalPrice: '$800',
     description: '55-inch Samsung TV. Click here <a href="https://www.bestbuy.ca/en-ca/product/samsung-55-q8f-series-4k-uhd-hdr-qled-tizen-smart-tv-qn55q8faafxzc-2025/19206116" target="_blank">for more information</a>',
     condition: 'Like new',
+    soldOut: true,
     images: ['img/samsung-55-inch.jpg'],
   },
   {
