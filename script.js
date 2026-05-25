@@ -220,11 +220,11 @@ const items = [
     images: ['img/p_1001813016.jpg'],
   },
     {
-    name: 'Kids Skates',
+    name: 'Kids Skates 4-6 years',
     price: '$20' ,
     category: 'Kids',
     originalPrice: '$40',
-    description: 'Hoover WindTunnel High Capacity Upright Vacuum. Click here <a href="https://www.decathlon.ca/en/p/kids-in-line-skates-play-3-pink-purple/134505/c181c344c344m8367591" target="_blank">for more information</a>',
+    description: 'Decathlon Kids In-line Skates - Play 3 Pink/Purple. Click here <a href="https://www.decathlon.ca/en/p/kids-in-line-skates-play-3-pink-purple/134505/c181c344c344m8367591" target="_blank">for more information</a>',
     condition: 'Excellent',
     images: ['img/Kids-pink-skates.png'],
   },
