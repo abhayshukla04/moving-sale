@@ -46,7 +46,7 @@ const items = [
   },
     {
     name: 'IKEA Ironing board',
-    price: '$10' ,
+    price: '$20' ,
     category: 'Home',
     originalPrice: '$50',
     description: 'IKEA Ironing board. Click for <a href="https://www.ikea.com/ca/en/p/daenka-ironing-board-20471612/" target="_blank">Link of New</a>',
