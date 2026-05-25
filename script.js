@@ -198,6 +198,7 @@ const items = [
     originalPrice: '$40',
     description: 'Steel rack from IKEA. Click here <a href="https://www.ikea.com/ca/en/p/hyllis-shelf-unit-indoor-outdoor-00278578/" target="_blank">for more information</a>',
     condition: 'Excellent',
+    soldOut : true,
     images: ['img/hyllis-shelf-unit-indoor-outdoor.avif'],
   },
   {
