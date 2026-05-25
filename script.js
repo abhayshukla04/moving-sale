@@ -72,6 +72,15 @@ const items = [
     images: ['img/Chair-Pink.jpg'],
   },
   {
+    name: 'IKEA Light Pink study chair',
+    price: '$15' ,
+    category: 'Furniture',
+    originalPrice: '$40',
+    description: 'Light pink study chair. Click here <a href="https://www.ikea.com/ca/en/p/mammut-childrens-chair-indoor-outdoor-light-blue-30581988/#content" target="_blank">for more information</a>',
+    condition: 'Excellent',
+    images: ['img/s_light-pink-7c91188b.jpg'],
+  },
+  {
     name: 'Wardrobe : Imported',
     price: '$25' ,
     category: 'Furniture',
