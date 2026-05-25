@@ -89,7 +89,7 @@ const items = [
     originalPrice: '$100',
     description: 'Pink wooden study table suitable. Made with greenply plywood and laminate. Click here <a href="https://example.com" target="_blank">for more information</a>',
     condition: 'Excellent',
-    images: ['img/pink-study-table.jpeg'],
+    images: ['img/20260525_164925.jpg', 'img/20260525_164941.jpg'],
   },
   {
     name: 'IKEA Blue study chair',
