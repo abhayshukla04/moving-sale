@@ -219,6 +219,15 @@ const items = [
     condition: 'Excellent',
     images: ['img/p_1001813016.jpg'],
   },
+    {
+    name: 'Kids Skates',
+    price: '$20' ,
+    category: 'Kids',
+    originalPrice: '$40',
+    description: 'Hoover WindTunnel High Capacity Upright Vacuum. Click here <a href="https://www.decathlon.ca/en/p/kids-in-line-skates-play-3-pink-purple/134505/c181c344c344m8367591" target="_blank">for more information</a>',
+    condition: 'Excellent',
+    images: ['img/Kids-pink-skates.png'],
+  },
   {
     name: 'TV rack with storage',
     price: '$50' ,
