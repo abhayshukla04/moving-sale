@@ -6,6 +6,7 @@ const items = [
     originalPrice: '$200',
     description: 'Efficient air conditioner in good working condition. Click here <a href="https://example.com" target="_blank">for more information</a>',
     condition: 'Good',
+    soldOut: true,
     images: ['img/Window Air Conditioner.avif', 'img/Window Air Conditioner-2.avif'],
   },
   {
