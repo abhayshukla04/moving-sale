@@ -70,6 +70,7 @@ const items = [
     originalPrice: '$40',
     description: 'Pink study chair. Click here <a href="https://www.ikea.com/ca/en/p/mammut-childrens-chair-indoor-outdoor-light-blue-30581988/#content" target="_blank">for more information</a>',
     condition: 'Excellent',
+    soldOut: true,
     images: ['img/Chair-Pink.jpg'],
   },
   {
@@ -159,6 +160,7 @@ const items = [
     originalPrice: '$399',
     description: 'Ionic Pro Platinum Air Purifier. Click here <a href="https://a.co/d/0i9Yhztg" target="_blank">for more information</a>',
     condition: 'Very good',
+    soldOut: true,
     images: ['img/61a3F7mZwsL._AC_SX679_.jpg'],
   },
   {
@@ -177,6 +179,7 @@ const items = [
     originalPrice: '$130',
     description: 'Hoover WindTunnel High Capacity Upright Vacuum. Click here <a href="https://www.homedepot.ca/product/hoover-windtunnel-high-capacity-upright-vacuum/1001813016" target="_blank">for more information</a>',
     condition: 'Excellent',
+    soldOut: true,
     images: ['img/p_1001813016.jpg'],
   },
     {
@@ -195,6 +198,7 @@ const items = [
     originalPrice: '$40',
     description: 'Decathlon Kids In-line Skates - Play 3 Blue/Red. Click here <a href="https://www.decathlon.ca/en/p/kids-in-line-skates-play-3-blue-red/134505/c108c5c14m8366197" target="_blank">for more information</a>',
     condition: 'Excellent',
+    soldOut: true,
     images: ['img/kids-skate-blue.png'],
   },
   {
@@ -249,6 +253,7 @@ const items = [
     originalPrice: '$50',
     description: 'Milton cashroll. Click here <a href="https://www.amazon.ca/Milton-Galaxia-Insulated-Stainless-Serving/dp/B07BWS74MT/ref=sr_1_14?dib=eyJ2IjoiMSJ9.m7dyVrWFUhg4La3VXQEyXiT4nispMG48bsgD1DRqceFQ3-WgQ1ApL23X0nSyUQ3hZKQQs7XSOPKWcYnN-uy8ZYVwn2i1EtOC54JQh6ERmz7ZnmSzT2gzd4aF2E42WpEicNkcQ_FwPgi6Qp0hvm98klVnDMEvZQe21-qiFd717_eKZEiHGGwbG9-0hzH2FTTEUDvYVKoK3Lv_CJHsLsVPnGvWDEl6dWELcgtotG0pO3o.LiYWUzl2uoSr5BaP5p-eyp3pBrUdbJ7tfY9huNtIAMQ&dib_tag=se&qid=1778035939&refinements=p_89%3AMILTON&rnid=5264023011&s=kitchen&sr=1-14&srs=20657279011&th=1" target="_blank">for more information</a>',
     condition: 'Like New',
+    soldOut: true,
     images: ['img/milton.jpg'],
   },
   {
