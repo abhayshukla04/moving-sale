@@ -16,7 +16,7 @@ const items = [
     originalPrice: '$800',
     description: 'HAUGSVÄR IKEA hybrid mattress. Click here <a href="https://www.ikea.com/ca/en/p/anneland-hybrid-mattress-firm-white-20511910/" target="_blank">for more information</a>',
     condition: 'Excellent',
-    images: ['img/hybrid-mattress.avif'],
+    images: ['img/hybrid-mattress.avif', 'img/anneland-hybrid-mattress-firm-white__1048637_pe843805_s5.avif'],
   },
   {
     name: 'DUROFLEX Mattress : Imported',
