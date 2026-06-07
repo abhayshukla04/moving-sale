@@ -244,6 +244,7 @@ const items = [
     originalPrice: '$300',
     description: 'Preethi mixer with juicer. Click here <a href="https://example.com" target="_blank">for more information</a>',
     condition: 'Good',
+    soldOut: true,
     images: ['img/Mixer-Preethi-with-juicer.jpg'],
   },
   {
